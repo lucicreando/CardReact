@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: #f7a29e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo h1 {
+    color: #3b3f49;
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.text {
+    text-align: justify;
+    color: #161718;
+    margin-bottom: 1.5rem;
+    flex: 1;
+    padding: 0 2rem; 
+}
+
+.image img {
+    max-width: 300px;
+    height: auto;
+    background-color: #faeddf;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+     margin-top: 2rem;
+     gap: 50px;
+}
+
+
+.formulario label,
+.formulario input {
+    display: block;
+    margin-bottom: 1rem;
+    width: 300px;
+}
+
+.submit-button {
+    background-color: #f3c6b9;
+    border: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #faeddf;
+}
+h2{
+    margin-bottom: 10px;
+}
+/* Footer */
+footer {
+    background-color: #f7a29e;
+    padding: 1rem;
+    text-align: center;
+}
+
+.social-icons a {
+    color: black;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #faeddf;
+}
